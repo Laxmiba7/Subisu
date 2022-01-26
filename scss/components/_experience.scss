@@ -1,0 +1,11 @@
+.experience {
+    padding: 50px;
+    
+    span {
+        color: blue;
+    }
+    .card {
+        @include flexProp(row);
+    }
+    
+}
