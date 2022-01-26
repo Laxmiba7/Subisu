@@ -7055,24 +7055,23 @@ span, p, li {
 .services h2, .services .h2 {
   text-align: center; }
 
-.services .cards {
+.services .services-cards {
   margin: 0 30px; }
-
-.services .card {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #E2E2E2;
-  box-sizing: border-box;
-  border-radius: 4px;
-  margin: 20px;
-  align-items: center;
-  height: auto; }
-  .services .card .card-i {
-    color: #902F59; }
-  .services .card .card-desc {
-    margin-left: 20px; }
+  .services .services-cards .card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #E2E2E2;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 20px;
+    align-items: center;
+    height: auto; }
+    .services .services-cards .card .card-i {
+      color: #902F59; }
+    .services .services-cards .card .card-desc {
+      margin-left: 20px; }
 
 .hero {
   display: flex;
@@ -7151,3 +7150,15 @@ footer {
 .button-blue {
   background-color: #3021D7;
   color: #FFFFFF; }
+
+.experience {
+  padding: 50px; }
+  .experience span {
+    color: blue; }
+  .experience-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; }
+    .experience-card .card-description {
+      margin-left: 10px; }

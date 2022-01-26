@@ -4,8 +4,11 @@
     span {
         color: blue;
     }
-    .card {
+    &-card {
         @include flexProp(row);
+        .card-description {
+          margin-left: 10px;
+        }
     }
     
 }
