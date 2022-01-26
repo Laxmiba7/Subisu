@@ -1,0 +1,18 @@
+.hero {
+@include flexProp(row);
+height: 100%;
+width: 90%;
+margin-inline: 5%;
+margin-block: 2em;
+background-image: url('../../assets/images/hero-background.png');
+background-size: cover;
+background-repeat: no-repeat;
+color: $info;
+ .hero-wrapper {
+    @include flexProp(row);
+    justify-content: space-between;
+    width: 70%;
+   
+ }
+
+}

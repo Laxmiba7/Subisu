@@ -1,0 +1,55 @@
+
+//new gridbreakpoing
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1280px,
+  xxl: 1420px,
+);
+
+
+$blue: #3021D7;
+$gray-200:#e1e1e1;
+$green: #43a047;
+$blue-5: #FFFFFF;
+
+$yellow-56: #fec120;
+$purple: #902F59;
+
+$red: #f44336;
+$black: #000000;
+
+
+
+
+
+//colors
+
+$primary: $blue;
+$secondary: $gray-200;
+$success: $green;
+$info: $blue-5;
+$background: $black;
+$warning: $yellow-56;
+$danger: $red;
+$service: $purple;
+// $light: $gray-100;
+// $dark: $gray-800;
+// $border-color-gray: $gray-80;
+// $border-color: $gray-88;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  // "light": $light,
+  // "dark": $dark,
+  // "error": $red,
+);
+
+

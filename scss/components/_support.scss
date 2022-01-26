@@ -1,0 +1,25 @@
+.support {
+    @include flexProp(column);
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    background-image: url('../../assets/images/support-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 82px;
+    color: $info;
+    
+    .cards {
+        @include flexProp(row);
+        
+        margin-inline: 2%;
+        margin-block: 5%;
+         &:nth-child(1) {
+        background-color: $info;
+    }
+       
+    }
+   
+
+    
+}

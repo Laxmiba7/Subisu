@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@import './scss/abstracts/variables';
+@import './scss/frameworks/bootstrap';
+
+
+@import './scss/abstracts/mixins';
+@import './scss/abstracts/functions';
+
+
+
+@import './scss/base/base';
+@import './scss/base/typography';
+@import './scss/base/utilities';
+
+@import './scss/components/header';
+@import './scss/components/menu';
+@import './scss/components/cards';
+@import './scss/components/hero'; 
+@import './scss/components/footer';
+@import './scss/components/solution';
+@import './scss/components/support';
+@import './scss/components/button';
+
+

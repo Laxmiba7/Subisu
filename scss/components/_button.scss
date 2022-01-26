@@ -1,0 +1,17 @@
+.button {
+border: 1px solid #E0E0E0;
+box-sizing: border-box;
+border-radius: 2px;
+height: 36px;
+width: 143px;
+}
+
+.button-normal {
+    background-color: $info;
+   
+}
+
+.button-blue {
+    background-color: $primary;
+    color:$info;
+}

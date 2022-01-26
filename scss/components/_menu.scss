@@ -1,0 +1,13 @@
+.menu {
+    background-color: $background;
+    width: 100%;
+    padding: 5px;
+    .menu-list {
+    @include flexProp(row);
+    list-style-type: none;
+    li {
+      margin-left: 24px;
+      color: $info;
+    }
+  }
+}

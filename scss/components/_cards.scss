@@ -1,0 +1,28 @@
+.services {
+    h2 {
+        text-align: center;
+    }
+    .cards {
+        margin: 0 30px;
+    }
+   
+    .card {
+      @include flexProp(row);
+      border: 1px solid #E2E2E2;
+      box-sizing: border-box;
+      border-radius: 4px;
+      margin: 20px;
+      align-items: center;
+      height: auto;
+
+      .card-i {
+          color: $service;
+      }
+      
+      .card-desc {
+          margin-left: 20px;
+      }
+    }
+    
+   
+}

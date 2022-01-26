@@ -1,0 +1,14 @@
+.head {
+    @include flexProp(row);
+    justify-content: space-between;
+    padding: 30px;
+    
+    ul {
+     @include flexProp(row);
+   }
+    li {
+      list-style-type: none;
+      margin-left: 10px;
+    }
+   
+}
