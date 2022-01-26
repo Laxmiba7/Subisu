@@ -1,5 +1,16 @@
 .solution {
     margin-block: 5%;
+    h2 {
+      border-bottom: 1px solid #E0E0E0;
+      margin-bottom: 5px;
+    }
+    h2::after {
+      content: '';
+      display: block;
+      border: 2px solid $primary;
+      margin-bottom: -2px;
+      width: 25%;
+    }
     img {
       margin-left: 50px;
       height: auto;
@@ -7,6 +18,6 @@
     .solution-desc {
         @include flexProp(column);
         margin: 20px;
-        justify-content: center;
+        
     }
 }

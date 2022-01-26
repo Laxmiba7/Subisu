@@ -4,14 +4,15 @@ box-sizing: border-box;
 border-radius: 2px;
 height: 36px;
 width: 143px;
-}
-
-.button-normal {
+  &-normal {
     background-color: $info;
    
 }
-
-.button-blue {
+&-blue {
     background-color: $primary;
     color:$info;
 }
+}
+
+
+

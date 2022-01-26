@@ -7103,6 +7103,15 @@ footer {
 
 .solution {
   margin-block: 5%; }
+  .solution h2, .solution .h2 {
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 5px; }
+  .solution h2::after, .solution .h2::after {
+    content: '';
+    display: block;
+    border: 2px solid #3021D7;
+    margin-bottom: -2px;
+    width: 25%; }
   .solution img {
     margin-left: 50px;
     height: auto; }
@@ -7111,8 +7120,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 20px;
-    justify-content: center; }
+    margin: 20px; }
 
 .support {
   display: flex;
@@ -7127,14 +7135,14 @@ footer {
   background-repeat: no-repeat;
   padding: 82px;
   color: #FFFFFF; }
-  .support .cards {
+  .support-cards {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     margin-inline: 2%;
     margin-block: 5%; }
-    .support .cards:nth-child(1) {
+    .support-cards:nth-child(1) {
       background-color: #FFFFFF; }
 
 .button {
@@ -7143,18 +7151,18 @@ footer {
   border-radius: 2px;
   height: 36px;
   width: 143px; }
-
-.button-normal {
-  background-color: #FFFFFF; }
-
-.button-blue {
-  background-color: #3021D7;
-  color: #FFFFFF; }
+  .button-normal {
+    background-color: #FFFFFF; }
+  .button-blue {
+    background-color: #3021D7;
+    color: #FFFFFF; }
 
 .experience {
   padding: 50px; }
   .experience span {
     color: blue; }
+  .experience .heart-i {
+    color: #FF5A79; }
   .experience-card {
     display: flex;
     flex-direction: row;

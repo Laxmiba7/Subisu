@@ -4,6 +4,9 @@
     span {
         color: blue;
     }
+    .heart-i {
+        color: #FF5A79;
+    }
     &-card {
         @include flexProp(row);
         .card-description {

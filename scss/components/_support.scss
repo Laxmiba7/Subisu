@@ -9,7 +9,7 @@
     padding: 82px;
     color: $info;
     
-    .cards {
+    &-cards {
         @include flexProp(row);
         
         margin-inline: 2%;
